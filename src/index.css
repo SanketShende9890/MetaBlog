@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Great+Vibes&family=Inconsolata:wght@400;500;600;700;800;900&family=Inter:wght@200;300;400;500;600;700;800;900&family=League+Spartan:wght@100;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=MuseoModerno:wght@100;200;300;400;500;600;700;800;900&family=PT+Sans+Narrow:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Titillium+Web:wght@200;300;400;600;700;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  /* color: #000; */
+}
+.dark-mode {
+  background-color: #181a2a !important;
+  color: #fff !important;
+}
+.light-mode {
+  background-color: #f5f5dc !important;
+  color: #181A2A !important;
+}
+.text-mute{
+  color: #97989F;
+}
+.dark-mode-btn{
+  border-radius: 12px;
+  transition: border-radius 0.3s ease-in-out; 
+}
+.dark-mode-btn:hover{
+  border-radius: 100px;
+}
+
+.dark-btn{
+  border: 1px solid #242535;
+  background-color: #181A2A;
+}
+.dark-mode-btn .light{
+  border: 1px solid #E8E8EA;
+  background-color: #fff;
+}
+.light-container{
+}
+.dark-container{
+}
+.light-badge {
+  border-radius: 6px;
+  background-color: #4B6BFB;
+  color: #fff;
+  padding: 4px 10px;
+  text-align: center;
+}
+.dark-badge {
+  border-radius: 6px;
+  background: rgba(75, 107, 251, 0.05);
+  color: #4b6bfb;
+  padding: 4px 10px;
+  text-align: center;
+}
+.border-6{
+  border-radius: 6px;
+}
+.border-12{
+  border-radius: 12px;
+}
+.light-footer{
+  border-top: 1px solid #E8E8EA;
+  background-color: #F6F6F7;
+}
+.dark-footer{
+  border-top: 1px solid #242535;
+  background-color: #141624;
+}
